@@ -32,8 +32,5 @@ def header(authors, place='Paris'):
             warnings.warn('Firstname is missing')
         
         prenom = element.get('lastname', 'XXX')
-        
-        
-        liste.append(f"- {nom} {prenom}")
     ##print("\n".join(liste))
     return("\n".join(liste))
